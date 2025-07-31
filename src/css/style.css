@@ -51,12 +51,10 @@ main {
 .item {
     display: flex;
     flex-direction: column;
-    margin-bottom: 15px;
+    margin-bottom: 6px;
 }
 
-.item.span-ativo {
-    margin-bottom: 0px;
-}
+
 
 .formulario .input {
     border: solid 1px #000;
@@ -92,7 +90,7 @@ main {
     color: #F52E2E;
     font-size: 0.8rem;
     font-weight: 400;
-    display: none;
+    opacity: 0;
 }
 
 #enviar {
@@ -118,6 +116,5 @@ main {
 }
 
 .item span.ativo {
-    display: inline;
-    margin-bottom: 6px;
+    opacity: 1;
 }
