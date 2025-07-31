@@ -60,6 +60,7 @@ main {
     border: solid 1px #000;
     padding: 8px 0px 9px 10px;
     border-radius: 5px;
+    transition: 0.2s ease;
 }
 
 .formulario .input::placeholder {
@@ -116,5 +117,6 @@ main {
 }
 
 .item span.ativo {
+    transition: 0.2s ease;
     opacity: 1;
 }
