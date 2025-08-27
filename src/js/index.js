@@ -1,6 +1,5 @@
 const inputsTexto = document.querySelectorAll(".input");
 const spans = document.querySelectorAll("span");
-const itens = document.querySelectorAll(".item");
 const botao = document.getElementById("enviar");
 
 botao.addEventListener("click", function () {
